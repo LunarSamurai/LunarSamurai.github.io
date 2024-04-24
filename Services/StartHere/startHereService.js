@@ -35,13 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const feedbackText = document.getElementById('feedback').value; // Get the feedback text
 
-        // Format the email content
-        const emailContent = `Sent from Github SQL Injection Webpage\n\nMessage: ${feedbackText}\n\n${new Date()}`;
-
-        // Create a mailto link to open the user's email client with the pre-filled email
-        window.location.href = `mailto:josephcraig.cyber.secure@gmail.com?subject=Feedback&body=${encodeURIComponent(emailContent)}`;
+        // Call the sendEmail function with the feedback text
+        sendEmail(feedbackText);
     };
-
     // Attach the submitFeedback function to the form submission event
     document.getElementById('feedback-form').addEventListener('submit', submitFeedback);
 });

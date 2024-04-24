@@ -1,3 +1,4 @@
+const sendEmail = require('sendEmail.js'); // Assuming sendEmail.js is in the same directory
 /**
  * Function to handle the intersection observer for sections.
  */

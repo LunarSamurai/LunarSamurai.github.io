@@ -4,8 +4,8 @@ const nodemailer = require('nodemailer');
 let transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'your_email@gmail.com', // Your Gmail email address
-        pass: 'your_password' // Your Gmail password or app-specific password
+        user: 'josephcraig.cyber.secure@gmail.com', // Your Gmail email address
+        pass: 'R3s3arch124$' // Your Gmail password or app-specific password
     }
 });
 
@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
 const sendEmail = (feedbackText) => {
     // Email content
     const mailOptions = {
-        from: 'your_email@gmail.com', // Sender email address
+        from: 'josephcraig.cyber.secure@gmail.com', // Sender email address
         to: 'josephcraig.cyber.secure@gmail.com', // Receiver email address
         subject: 'Feedback from GitHub SQL Injection Webpage',
         text: `Message: ${feedbackText}\n\nDatetime: ${new Date()}`

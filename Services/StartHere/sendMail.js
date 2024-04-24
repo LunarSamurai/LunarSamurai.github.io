@@ -1,6 +1,3 @@
-const nodemailer = require('nodemailer');
-const { google } = require('googleapis');
-
 // Create an OAuth2 client with the credentials
 const oAuth2Client = new google.auth.OAuth2(
     '996730462967-ccou21ebqr9r6mrga33u96ql01dnv9kt.apps.googleusercontent.com',

@@ -1,5 +1,5 @@
 # Understanding Code from GitHub Repository
-** Designed by Joseph Craig **
+* Designed by Joseph Craig *
 
 ## Introduction
 In this document, we'll walk through the process of obtaining code from a GitHub repository, understanding its structure, and comprehending its functionality.

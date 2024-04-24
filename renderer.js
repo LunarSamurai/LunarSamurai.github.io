@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const appPath = window.electronApi.getAppPath();
-    console.log('Application path:', appPath);
-
     setupActionButtons();
 });
 
